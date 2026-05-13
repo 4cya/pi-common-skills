@@ -31,6 +31,7 @@ skills/
 |------|------|------|
 | **handoff** | productivity | 将当前对话压缩为交接文档，供另一个 agent 接续工作 |
 | **grill-me** | productivity | 对计划或设计进行面试式追问，逐个解决决策树分支 |
+| **caveman** | productivity | 超压缩沟通模式，去掉废话同时保持技术准确性 |
 
 ## 贡献
 
