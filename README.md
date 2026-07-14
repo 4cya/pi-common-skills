@@ -20,18 +20,19 @@ ln -s /path/to/pi-common-skills/skills ~/.pi/agent/skills/pi-common-skills
 ```
 skills/
 ├── productivity/        # 开发效率类技能
-│   ├── handoff/         # 对话交接
-│   └── grill-me/        # 计划/设计压力测试
+│   ├── handoff/         # Copy conversation into a handoff document
+│   ├── grilling/        # Relentless interview about a plan or design
+│   └── caveman/         # Ultra-compressed communication mode
 ├── in-progress/         # 正在开发中的技能
 ```
 
 ## 技能清单
 
-| 技能 | 分类 | 描述 |
-|------|------|------|
-| **handoff** | productivity | 将当前对话压缩为交接文档，供另一个 agent 接续工作 |
-| **grill-me** | productivity | 对计划或设计进行面试式追问，逐个解决决策树分支 |
-| **caveman** | productivity | 超压缩沟通模式，去掉废话同时保持技术准确性 |
+| Skill | Category | Description |
+|-------|----------|-------------|
+| **handoff** | productivity | Compact the current conversation into a handoff document for another agent to pick up |
+| **grilling** | productivity | Grill the user relentlessly about a plan, decision, or idea until every branch of the decision tree is resolved |
+| **caveman** | productivity | Ultra-compressed communication mode. Cuts token usage ~75% by dropping filler, articles, and pleasantries while keeping full technical accuracy |
 
 ## 贡献
 
